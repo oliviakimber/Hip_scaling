@@ -35,3 +35,4 @@ add.color.bar(0.8,cols=XX$cols,title="trait value", lims=range(x),digits=2)
 
 # added111
 #333
+#444
