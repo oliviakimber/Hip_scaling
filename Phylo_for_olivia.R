@@ -33,4 +33,4 @@ XX<-contMap(pruned,svlV,res=200, fsize=0.9)
 plotSimmap(XX$tree,XX$cols,type="fan", fsize=0.4)
 add.color.bar(0.8,cols=XX$cols,title="trait value", lims=range(x),digits=2)
 
-
+# added
