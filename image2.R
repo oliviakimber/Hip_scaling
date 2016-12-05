@@ -4,7 +4,7 @@ install.packages("imager")
 
 library(imager)
 setwd("/Volumes/NO NAME/olivia hip height")
-Name <- read.csv("File_name2.csv")
+Name <- read.csv("File_name.csv")
 name <- levels(Name$Fname)
 
 kk = 1 # start species
@@ -12,7 +12,7 @@ yy = 1 # end species
 
 # set working directory
 for (jj in kk:yy){
-setwd(paste0("/Volumes/NO NAME/olivia hip height","/",name[jj]))
+setwd(paste0("/Volumes/NO NAME/olivia hip height","/",Name[jj,1]))
 filenames <- (Sys.glob("*.jpg"))
 
 cvalues= matrix(nrow = 0, ncol = 22)
